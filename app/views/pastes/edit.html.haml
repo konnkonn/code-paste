@@ -1,0 +1,9 @@
+= render :partial => 'paste_form'
+#right
+  = render :partial => 'pasted_details'
+  %br
+  = link_to 'raw', paste_path(@paste, :format => :txt)
+  %span.spacer
+    |
+  = link_to 'delete', @paste, :confirm => 'Are you sure?', :method => :delete
+.clear

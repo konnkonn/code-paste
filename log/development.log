@@ -4,3 +4,262 @@ Started GET "/" for 127.0.0.1 at 2014-02-24 12:31:33 +0900
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/gems/2.1.0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
 Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 14:42:38 +0900
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/ruby/2.1.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/ruby/2.1.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__4364728001260902868__call__callbacks'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 14:42:40 +0900
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/ruby/2.1.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/ruby/2.1.0/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__4364728001260902868__call__callbacks'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/hirokazusato/.rbenv/versions/2.1.0-rc1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePastes (20090703062243)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "pastes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "code" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20090703062243"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateParsers (20090704051523)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "parsers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "display_name" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20090704051523"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddParserIdToPaste (20090704051709)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "pastes" ADD "parser_id" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20090704051709"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddNumOfLinesToPastes (20090706061658)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "pastes" ADD "number_of_lines" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20090706061658"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 14:43:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.1.0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 14ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pastes" for 127.0.0.1 at 2014-02-24 14:48:23 +0900
+Processing by PastesController#index as HTML
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:12)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:13)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:14)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:15)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:16)
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `paginate' for #<Class:0x007f89a30fc308>):
+  app/controllers/pastes_controller.rb:5:in `index'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.2ms)
+
+
+Started GET "/pastes/index" for 127.0.0.1 at 2014-02-24 14:48:36 +0900
+Processing by PastesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mPaste Load (0.2ms)[0m  SELECT "pastes".* FROM "pastes" WHERE "pastes"."id" = 0 LIMIT 1
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 14:48:36 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[36mParser Load (0.2ms)[0m  [1mSELECT "parsers".* FROM "parsers" ORDER BY display_name[0m
+Completed 500 Internal Server Error in 9ms
+
+ActionView::MissingTemplate (Missing template pastes/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/hirokazusato/code-paste/app/views"
+):
+  app/controllers/pastes_controller.rb:42:in `new'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:49:16 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[35mParser Load (0.2ms)[0m  SELECT "parsers".* FROM "parsers" ORDER BY display_name
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template pastes/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/hirokazusato/code-paste/app/views"
+):
+  app/controllers/pastes_controller.rb:42:in `new'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:49:26 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[36mParser Load (0.2ms)[0m  [1mSELECT "parsers".* FROM "parsers" ORDER BY display_name[0m
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template pastes/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/hirokazusato/code-paste/app/views"
+):
+  app/controllers/pastes_controller.rb:42:in `new'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:49:43 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[35mParser Load (0.2ms)[0m  SELECT "parsers".* FROM "parsers" ORDER BY display_name
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template pastes/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/hirokazusato/code-paste/app/views"
+):
+  app/controllers/pastes_controller.rb:42:in `new'
+
+
+  Rendered vendor/bundle/ruby/2.1.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+  [1m[36mParser Load (0.3ms)[0m  [1mSELECT "parsers".* FROM "parsers"[0m
+  [1m[35mParser Load (0.2ms)[0m  SELECT "parsers".* FROM "parsers"
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:53:21 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[36mParser Load (0.2ms)[0m  [1mSELECT "parsers".* FROM "parsers" ORDER BY display_name[0m
+  Rendered pastes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 700ms (Views: 697.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 14:53:22 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 14:53:22 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 14:53:22 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 14:53:22 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 14:53:22 +0900
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:53:54 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from new at /Users/hirokazusato/code-paste/app/controllers/pastes_controller.rb:40)
+  [1m[35mParser Load (0.3ms)[0m  SELECT "parsers".* FROM "parsers" ORDER BY display_name
+  Rendered pastes/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:55:36 +0900
+Processing by PastesController#new as HTML
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:12)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:13)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:14)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:15)
+DEPRECATION WARNING: Using #scope without passing a callable object is deprecated. For example `scope :red, where(color: 'red')` should be changed to `scope :red, -> { where(color: 'red') }`. There are numerous gotchas in the former usage and it makes the implementation more complicated and buggy. (If you prefer, you can just define a class method named `self.red`.). (called from <class:Paste> at /Users/hirokazusato/code-paste/app/models/paste.rb:16)
+  Rendered pastes/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 14:59:45 +0900
+Processing by PastesController#new as HTML
+  Rendered pastes/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pastes/new" for 127.0.0.1 at 2014-02-24 15:00:05 +0900
+Processing by PastesController#new as HTML
+  Rendered pastes/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
